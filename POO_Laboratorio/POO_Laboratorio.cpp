@@ -26,7 +26,7 @@ public:
 	Automovil(string m, int v) : marca(m), velocidad(v) {}
 	void acelerar() {
 		velocidad += 10;
-		cout << "El automovil " << marca << " ahora va a " << velocidad << " km/h." << endl;
+		cout << "El carro " << marca << " ahora va a " << velocidad << " km/h." << endl;
 	}
 };
 class Persona {
@@ -36,7 +36,7 @@ private:
 public:
 	Persona(string n, int e) : nombre(n), edad(e) {}
 	void saludar() {
-		cout << "Hola, mi nombre es " << nombre << " y tengo " << edad << " anios." << endl;
+		cout << "Hola mi nombre es " << nombre << " y tengo " << edad << " anios" << endl;
 	}
 };
 int main() {
